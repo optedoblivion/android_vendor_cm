@@ -152,6 +152,12 @@ PRODUCT_PACKAGES += \
     CMHome \
     CyanogenSetupWizard
 
+# Tinfoil
+PRODUCT_PACKAGES += \
+    libsodium \
+    dnscrypt-proxy \
+    privoxy
+
 # CM Platform Library
 PRODUCT_PACKAGES += \
     org.cyanogenmod.platform-res \
